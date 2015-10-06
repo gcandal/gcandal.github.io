@@ -5,10 +5,8 @@ date:   2015-10-05 23:10:45
 description: Why I'm doing a dissertation on PPLs.
 categories:
 - dissertation
-- proposal
-- visual programming
-- probabilistic programming
-permalink: proposal
+- visual_programming
+- probabilistic_programming
 ---
 
 ## Exploring Visual Programming Concepts for Probabilistic Programming Languages

@@ -5,9 +5,8 @@ date:   2015-10-05 23:10:45
 description: Some materials I've read/watch, or plan to, when working on the dissertation.
 categories:
 - dissertation
-- visual programming
-- probabilistic programming
-permalink: materials
+- visual_programming
+- probabilistic_programming
 ---
 
 We all stand on the shoulders of giants, and on this post I will try to keep a list of the materials I have gone through when working on my dissertation, along with some notes here and there.
