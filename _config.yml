@@ -4,7 +4,7 @@
 baseurl:
 
 # Site live URL
-url: http://gabrielcandal.github.io
+url: http://gcandal.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
@@ -18,7 +18,7 @@ harmony:
   # It will appear in your document head meta (for Google search results) and
   # in your feed.xml site description.
   meta_description: > #
-    Lorem stuff.
+
   basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
   author: # Author details
     name: Gabriel Candal
@@ -45,6 +45,7 @@ markdown:    kramdown
 highlighter: pygments
 
 # Permalinks
+permalink:        pretty
 
 exclude:
   - CNAME

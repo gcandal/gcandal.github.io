@@ -7,6 +7,7 @@ categories:
 - dissertation
 - visual_programming
 - probabilistic_programming
+permalink: proposal
 ---
 
 We all stand on the shoulders of giants, and on this post I will try to keep a list of the materials I have gone through when working on my dissertation, along with some notes here and there.
