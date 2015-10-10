@@ -16,19 +16,19 @@ We all stand on the shoulders of giants, and on this post I will try to keep a l
 
 ### Talks
 
-[<s>SciPy 2013 Keynote: Trends in Machine Learning and the SciPy community</s>](https://www.youtube.com/watch?v=S6IbD86Dbvc&index=1&list=PLWJTwh75g1Ve5pDq2OJ88o2j1tD-QtCum)
+[<s>**SciPy 2013 Keynote: Trends in Machine Learning and the SciPy community**</s>](https://www.youtube.com/watch?v=S6IbD86Dbvc&index=1&list=PLWJTwh75g1Ve5pDq2OJ88o2j1tD-QtCum) - This is THE talk on this subject. Analyses the state of the art (at the time) of machine learning and elaborates on why there is a place for probabilistic programming and Bayesian reasoning, and which problems does it solve. **To be re-watched**.
 
-[<s>Infer.py: Probabilistic Programming and Bayesian Inference from Python; SciPy 2013 Presentation</s>](https://www.youtube.com/watch?v=x2od7tsPjQE)
+[<s>Infer.py: Probabilistic Programming and Bayesian Inference from Python; SciPy 2013 Presentation</s>](https://www.youtube.com/watch?v=x2od7tsPjQE) - From a contributor to the Infer.NET port to Python, it has a very decent intro do why PPLs matter (first 5 minutes).
 
 [An Overview of Probabilistic Programming" by Vikash K. Mansinghka](https://www.youtube.com/watch?v=-8QMqSWU76Q)
 
 John Winn's Presentation on variational inference and Variational Message Passing
 
-### Papers
+### Papers/Articles/Slides
 
-[<s>Dataflow Programming Concept, Languages and Applications</s>](http://paginas.fe.up.pt/~prodei/dsie12/papers/paper_17.pdf)
+[<s>Dataflow Programming Concept, Languages and Applications</s>](http://paginas.fe.up.pt/~prodei/dsie12/papers/paper_17.pdf) - generic overview of DFP, its applications and challenges.
 
-[A model-learner pattern for Bayesian reasoning](http://research.microsoft.com/apps/pubs/default.aspx?id=173887)
+[<s>A model-learner pattern for Bayesian reasoning</s>](http://research.microsoft.com/apps/pubs/default.aspx?id=173887) - not the most relevant one. Focus too much on formalisms and requires background knowledge which I don't have.
 
 [Deriving probability density functions from probabilistic functional programs](http://research.microsoft.com/apps/pubs/default.aspx?id=189021)
 
@@ -56,17 +56,17 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 ### Books
 
-[<s>Think Bayes</s>](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf)
+[<s>Think Bayes</s>](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf) - Bayes reasoning meets real-world problems.
 
 [Dataflow and Reactive Programming Systems](https://deepfriedcode.com/books/darps.html)
 
-### Other
+### Tutorials/Walkthroughs
 
 [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
 
 [Infer.NET](http://research.microsoft.com/en-us/um/cambridge/projects/infernet/)
 
-[<s>The Design and Implementation of Probabilistic Programming Languages</s>](http://dippl.org/)
+[<s>The Design and Implementation of Probabilistic Programming Languages</s>](http://dippl.org/) - Walks through the inner workings of a PPL, giving an overview how its building blocks compose. Nice to understand umbilical program/model relation and how a model is built by sampling over a running program.
 
 ## Visual Programming
 
