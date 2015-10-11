@@ -28,13 +28,13 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>Dataflow Programming Concept, Languages and Applications</s>](http://paginas.fe.up.pt/~prodei/dsie12/papers/paper_17.pdf) - generic overview of DFP, its applications and challenges.
 
-[<s>A model-learner pattern for Bayesian reasoning</s>](http://research.microsoft.com/apps/pubs/default.aspx?id=173887) - not the most relevant one. Focus too much on formalisms and requires background knowledge which I don't have.
+[<s>A model-learner pattern for Bayesian reasoning</s>](http://research.microsoft.com/apps/pubs/default.aspx?id=173887) - not the most relevant one. In sum, suggests a pattern for using typed Bayesian models. Examples are in Fun (a languaged hosted in F#).
 
-[Deriving probability density functions from probabilistic functional programs](http://research.microsoft.com/apps/pubs/default.aspx?id=189021)
+[<s>Deriving probability density functions from probabilistic functional programs</s>](http://research.microsoft.com/apps/pubs/default.aspx?id=189021) - it's about a compiler from probabilistic programs to probability density functions, with examples in Fun. Could not fully grasp the inner workings, and I find it out of scope, but it was nice remember the differences between PMF, PDF and CDF.
 
-[Probabilistic Programming](http://msr-waypoint.com/pubs/208585/fose-icse2014.pdf)
+[<s>**Probabilistic Programming**</s>](http://msr-waypoint.com/pubs/208585/fose-icse2014.pdf) - very thorough overview of probabilistic programming which is written in way which can be easily followed by someone with a background in software engineering rather than statistics or machine learning. Has a ton of examples (in a C-like language). Makes a comparison between probabilistic programs and bayesian models/discrete time markov chains and how to convert from the latter to the former. Goes on describing applications. Compares message passing to sampling and static to dynamic inference. Ends by enumerating future work to be done in this topic.
 
-[The Principles and Practice of Probabilistic Programming](https://web.stanford.edu/~ngoodman/papers/POPL2013-abstract.pdf)
+[<s>The Principles and Practice of Probabilistic Programming</s>](https://web.stanford.edu/~ngoodman/papers/POPL2013-abstract.pdf) - introduction to probabilistic programming with examples in Church (Scheme subset). I found it both not very easy to follow nor complete.
 
 [Picture: A Probabilistic Programming Language for Scene Perception](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf)
 
