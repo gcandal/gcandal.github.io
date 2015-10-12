@@ -14,5 +14,6 @@ Oh, I also like MOOCs too much for my own sake, love football and practice karat
 Find me on [LinkedIn][linkedin] / [Github][github] or just say `Hi` at
 [gabrielcandal@gmail.com](gabrielcandal@gmail.com) or via Skype (**g.candal**).
 
+[linkedin]: http://linkedin.com/in/gcandal
 [jekyll]: http://jekyllrb.com
 [github]: https://github.com/gayanvirajith

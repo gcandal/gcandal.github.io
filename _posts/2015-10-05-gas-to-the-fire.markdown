@@ -36,11 +36,11 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>The Principles and Practice of Probabilistic Programming</s>](https://web.stanford.edu/~ngoodman/papers/POPL2013-abstract.pdf) - introduction to probabilistic programming with examples in Church (Scheme subset). I found it both not very easy to follow nor complete.
 
-[Picture: A Probabilistic Programming Language for Scene Perception](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf)
+[<s>Picture: A Probabilistic Programming Language for Scene Perception</s>](http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Kulkarni_Picture_A_Probabilistic_2015_CVPR_paper.pdf) - Introduces a domain-specific PPL. Avoid this kind of papers.
 
-[The Markov Chain Monte Carlo Revolution](http://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf)
+[<s>The Markov Chain Monte Carlo Revolution</s>](http://math.uchicago.edu/~shmuel/Network-course-readings/MCMCRev.pdf) - Focuses on the mathematics of the Metropolis algorithm, not what I was looking for.
 
-[A Short History of Markov Chain Monte Carlo: Subjective Recollections from Incomplete Data](http://arxiv.org/pdf/0808.2902.pdf)
+[<s>A Short History of Markov Chain Monte Carlo: Subjective Recollections from Incomplete Data</s>](http://arxiv.org/pdf/0808.2902.pdf) - Summarizes how MCMC algorithms evolved over time, focuses in the innovation of each of them relative to the state of the art of the time. Not very relevant to me, since it does not address applications.
 
 [Bayesian analysis and Markov chain Monte Carlo simulation](https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/workingpapers/wp0710.pdf)
 
