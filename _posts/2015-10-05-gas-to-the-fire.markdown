@@ -42,7 +42,7 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>A Short History of Markov Chain Monte Carlo: Subjective Recollections from Incomplete Data</s>](http://arxiv.org/pdf/0808.2902.pdf) - Summarizes how MCMC algorithms evolved over time, focuses in the innovation of each of them relative to the state of the art of the time. Not very relevant to me, since it does not address applications.
 
-[Bayesian analysis and Markov chain Monte Carlo simulation](https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/workingpapers/wp0710.pdf)
+[<s>Bayesian analysis and Markov chain Monte Carlo simulation</s>](https://www.jbs.cam.ac.uk/fileadmin/user_upload/research/workingpapers/wp0710.pdf) - Despite being written in Portugal Place, I didn't find it particularly useful. 
 
 [An Introduction to MCMC for Machine Learning](http://www.cs.ubc.ca/~arnaud/andrieu_defreitas_doucet_jordan_intromontecarlomachinelearning.pdf)
 
