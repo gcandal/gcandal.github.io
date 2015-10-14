@@ -22,9 +22,17 @@ We all stand on the shoulders of giants, and on this post I will try to keep a l
 
 [An Overview of Probabilistic Programming" by Vikash K. Mansinghka](https://www.youtube.com/watch?v=-8QMqSWU76Q)
 
+### Slides
+
+**<s>Winn, Minka, Probabilistic programming. Machine Learning Summer School</s>** - very clear and practical slides on CSoft and Infer.NET.
+
+<s>Deriving probability density functions from probabilistic functional programs</s> - read below.
+
+**<s>Duvenaud, Lloyd, Introduction to probabilistic programming.</s>** - I would risk to call it the best intro to PP, as it gives some context on why it is useful, presents some examples in code and then compares different inference methods.
+
 John Winn's Presentation on variational inference and Variational Message Passing
 
-### Papers/Articles/Slides
+### Papers/Articles
 
 [<s>Dataflow Programming Concept, Languages and Applications</s>](http://paginas.fe.up.pt/~prodei/dsie12/papers/paper_17.pdf) - generic overview of DFP, its applications and challenges.
 
