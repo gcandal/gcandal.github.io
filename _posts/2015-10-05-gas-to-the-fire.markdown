@@ -64,6 +64,10 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [Why Probabilistic Programming Matters](https://plus.google.com/u/0/+BeauCronin/posts/KpeRdJKR6Z1) - Explains why there is a place for PP. I had already read this elsewhere, nonetheless it's a great read to convert non-believers.
 
+[Probabilistic Models of Cognition](https://probmods.org/)
+
+[What is probabilistic programming?](http://www.pl-enthusiast.net/2014/09/08/probabilistic-programming/)
+
 ### Books
 
 [<s>Think Bayes</s>](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf) - Bayes reasoning meets real-world problems.
@@ -87,6 +91,8 @@ John Winn's Presentation on variational inference and Variational Message Passin
 [Probabilistic Programming Reading Group @ Oxford](http://www.robots.ox.ac.uk/~perov/reading_groups/probprob2013/)
 
 [probabilistic-programming.org](http://probabilistic-programming.org/research/)
+
+[Forest, a repository for generative models](http://forestdb.org/)
 
 ## Visual Programming
 
