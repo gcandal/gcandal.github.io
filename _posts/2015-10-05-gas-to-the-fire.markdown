@@ -60,13 +60,19 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>Variational Algorithms For Approximate Bayesian Inference</s>](http://www.cse.buffalo.edu/faculty/mbeal/papers/beal03.pdf) - 300 pages long, so skipping this by now. Seems to have a nice overview over Probabilistic Programming and its inference methods (Introduction section), to be read later.
 
-[Introduction to probabilistic programming](http://people.seas.harvard.edu/~dduvenaud/talks/probabilistic-programming-introduction.pdf)
+[<s>Introduction to probabilistic programming</s>](http://people.seas.harvard.edu/~dduvenaud/talks/probabilistic-programming-introduction.pdf) - An introduction like many others.
 
-[Why Probabilistic Programming Matters](https://plus.google.com/u/0/+BeauCronin/posts/KpeRdJKR6Z1) - Explains why there is a place for PP. I had already read this elsewhere, nonetheless it's a great read to convert non-believers.
+[<s>Why Probabilistic Programming Matters</s>](https://plus.google.com/u/0/+BeauCronin/posts/KpeRdJKR6Z1) - Explains why there is a place for PP. I had already read this elsewhere, nonetheless it's a great read to convert non-believers.
 
 [Probabilistic Models of Cognition](https://probmods.org/)
 
 [What is probabilistic programming?](http://www.pl-enthusiast.net/2014/09/08/probabilistic-programming/)
+
+[Lightweight Implementations of Probabilistic Programming Languages Via Transformational Compilation](http://jmlr.csail.mit.edu/proceedings/papers/v15/wingate11a/wingate11a.pdf)
+
+[Stan: A Probabilistic Programming Language](http://www.stat.columbia.edu/~gelman/research/published/stan-paper-revision-feb2015.pdf)
+
+[WinBUGS – A Bayesian modelling framework: Concepts, structure, and extensibility](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.604&rep=rep1&type=pdf)
 
 ### Books
 
@@ -84,7 +90,7 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>The Design and Implementation of Probabilistic Programming Languages</s>](http://dippl.org/) - Walks through the inner workings of a PPL, giving an overview how its building blocks compose. Nice to understand umbilical program/model relation and how a model is built by sampling over a running program.
 
-[The State of Probabilistic Programming](https://moalquraishi.wordpress.com/2015/03/29/the-state-of-probabilistic-programming/comment-page-1/#comment-1450)
+[<s>The State of Probabilistic Programming</s>](https://moalquraishi.wordpress.com/2015/03/29/the-state-of-probabilistic-programming/comment-page-1/#comment-1450) - Awesome report of the current state of PPLs, comparing them across several categories. Addresses the most pressing concerns as well as future challenges. Nice to read after already understanding the basics of PPLs and why do they matter.
 
 ### Yet to expand
 
