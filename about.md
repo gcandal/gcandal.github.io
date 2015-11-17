@@ -16,4 +16,4 @@ Find me on [LinkedIn][linkedin] / [Github][github] or just say `Hi` at
 
 [linkedin]: http://linkedin.com/in/gcandal
 [jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
+[github]: https://github.com/gcandal

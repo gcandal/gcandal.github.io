@@ -12,7 +12,7 @@ permalink: prelude
 
 ## Exploring Visual Programming Concepts for Probabilistic Programming Languages
 
-Probabilistic programming is a way to create systems that help us make decisions in the face of uncertainty <sup>1</sup>. Lots of everyday decisions involve judgment in determining relevant factors that we do not directly observe. Historically, one way to help make decisions under uncertainty has been to use a probabilistic reasoning system. Probabilistic reasoning combines our knowledge of a situation with the laws of probability to determine those unobserved factors that are critical to the decision. Typically, the way the several observations are combined is through the usage of bayesian statistics, due to its anachronistic interpretation where existing knowledge (priors) are combined with observations in order to gather evidence towards competing hypothesis.
+Probabilistic programming is a way to create systems that help us make decisions in the face of uncertainty. Lots of everyday decisions involve judgment in determining relevant factors that we do not directly observe. Historically, one way to help make decisions under uncertainty has been to use a probabilistic reasoning system. Probabilistic reasoning combines our knowledge of a situation with the laws of probability to determine those unobserved factors that are critical to the decision. Typically, the way the several observations are combined is through the usage of bayesian statistics, due to its anachronistic interpretation where existing knowledge (priors) are combined with observations in order to gather evidence towards competing hypothesis.
 
 When compared to other machine learning methods (such as random forests, neural networks or linear  regression),  which take homogeneous data as input (requiring the user to separate their domain into different models), probabilistic programming is used to leverage the data’s original structure. Plus, it provides full probability distributions over both the predictions and parameters of the model, whereas ML methods can only give the user a certain degree of confidence on the predictions.
 
@@ -23,6 +23,39 @@ Probabilistic programming is a new approach that makes probabilistic reasoning s
 PPLs are closely related to graphical models and Bayesian networks, but are more expressive and flexible. One can easily realize this by looking at the re-usable components PPLs offer, being one of them the inference engine, which can be plugged in into different models. For instances, it is easy to replace the exact-solution traditional Bayesian networks inference, which requires time exponential in the number of variables to run, with approximation algorithms such as the Markov Chain Monte Carlo (MCMC) or Variational Message Passing (VMP), which make it possible to compute large hierarchical models by resorting to sampling and approximation.
 PPLs often extend from a basic language (i.e., they are embedded in a host language like R, Java or Scala), although some PPLs such as WinBUGS and Stan offer a self-contained language, with no obvious origin in another language.
 
-Building upon the enormous flexibility of PPLs and the advantages of probabilistic models, we want to take advantage of the graphical intuition given by data visualization that data scientists are now accustomed to, and attempt to provide model and algorithmical visualization by rethinking how to capture the (usually textual) programmatic formalisms in a graphical manner.
+There have been successful applications of visual programming among several domains, being it education (MIT's Scratch and Microsoft's VPL), general-purpose programming (NoFlo), 3D modeling (Blender) and data science (RapidMiner and Weka Knowledge Flow). The latter, being popular products, have shown that there is added value in providing a graphical representation for working with data. However, as of today no tool provides a graphical representation for a PPL.
 
-The goal of this dissertation is thus to explore graphical representations of a probabilistic programming language through the usage of node-based programming. The hypothesis under consideration is that graphical representations (not to be confused with bayesian graphical model), are more intuitive and easy to learn that full-blown PPLs. We intend to validate such hypothesis by ensuring that classical problems solved in the literature by PPLs are also supported by our graphical representation, and then measure how quickly a group of people trained in statistics would produce a viable model in both alternatives.
+DARPA, the main funder behind PPLs' research, considers one of the main key points of its Probabilistic Programming for Advancing Machine Learning program to make models easier to write (reducing development time, encouraging experimentation and reducing the level of expertise required to develop such models). The use of visual programming is suitable for this kind of objectives, so building upon the enormous flexibility of PPLs and the advantages of probabilistic models, we want to take advantage of the graphical intuition given by data visualization that data scientists are now accustomed to, and attempt to provide model and algorithmical visualization by rethinking how to capture the (usually textual) programmatic formalisms in a graphical manner.
+
+The goal of this dissertation is thus to explore graphical representations of a probabilistic programming language through the usage of node-based programming. The hypothesis under consideration is that graphical representations (not to be confused with bayesian graphical model), are more intuitive and easy to learn that full-blown PPLs. D
+
+We intend to validate such hypothesis by ensuring that classical problems solved in the literature by PPLs are also supported by our graphical representation, and then measure how quickly a group of people trained in statistics would produce a viable model in both alternatives.
+
+**[1]** Andrew D. Gordon and Thomas A. Henzinger and Aditya V. Nori and Sriram K. Rajamani. Probabilistic Programming. International Conference on Software Engineering (ICSE Future of Software Engineering), 2014.
+
+**[2]** Christophe Andrieu and Nando de Freitas and Arnaud Doucet and Michael I. Jordana. Introduction to MCMC for Machine Learning. Kluwer Academic Publishers, 2003.
+
+**[3]** Allen B. Downey. Think Bayes Bayesian Statistics Made Simple. Green Tea Press, 2012.
+
+**[4]** David Duvenaud and James Lloyd. Slides on Introduction to Probabilistic Programming and Automated Inference. University of Cambridge, 2013.
+
+**[5]** Olivier Grisel. Keynote on Trends in Machine Learning and the SciPy community. SciPy, 2013.
+
+**[6]** Cameron Davidson-Pilon and open-source contributors. Bayesian Methods for Hackers. https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers. Online, accessed 10-Oct-2015.
+
+**[7]** Figaro™ - A Free, Open-source Probabilistic Programming Language for Probabilistic Modeling. https://www.cra.com/work/case-studies/figaro. Online, accessed 20-Oct-2015.
+
+**[8]** Bob Carpenter and Daniel Lee and Marcus A. Brubaker and Allen Riddell and Andrew Gelman and Ben Goodrich and Jiqiang Guo and Matt Hoffman and Michael Betancourt and Peter Li. Stan: A Probabilistic Programming Language. Journal of Statistical Software, 2015.
+
+**[9]** Thomas Lunn D and N Best and D. Spiegelhalter. WinBUGS — A Bayesian Modelling
+Framework: Concepts, Structure, and Extensibility. Statistics and Computing, 2008.
+
+**[10]** Blender Reference Manual, Composite Nodes section. https://blender.org/manual/composite_nodes/introduction.html. Online, accessed 02-Oct-2015.
+
+**[11]** NoFlo. http://noflojs.org/documentation/. Online, accessed 02-Oct-2015.
+
+**[12]** Mark Hall and Peter Reutemann. WEKA KnowledgeFlow Tutorial for Version 3-5-8. The University of Waikato, 2008. http://software.ucv.ro/~eganea/AIR/KnowledgeFlowTutorial-3-5-8.pdf. Online, accessed 22-Oct-2015.
+
+**[13]** RapidMiner documentation, Creating a Model section. http://docs.rapidminer.com/studio/getting-started/3-creating-model.html. Online, accessed 22-Oct-2015.
+
+**[14]** Suresh Jagannathan. Probabilistic Programming for Advancing Machine Learning (PPAML). DARPA. http://www.darpa.mil/program/probabilistic-programming-for-advancing-machine-Learning. Online, accessed 22-Oct-2015.
