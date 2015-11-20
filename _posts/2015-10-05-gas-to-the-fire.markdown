@@ -74,6 +74,10 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [WinBUGS – A Bayesian modelling framework: Concepts, structure, and extensibility](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.471.604&rep=rep1&type=pdf)
 
+[A Probabilistic Powerdomain of Evaluations](http://homepages.inf.ed.ac.uk/gdp/publications/Prob_Powerdomain.pdf)
+
+[Computable de Finetti measures](http://math.mit.edu/~freer/papers/FreerRoyCDEFpreprint.pdf) - "If we view the semantics of the underlying deterministic language as a map from programs to executions of the program, the semantics of a PPL built on it will be a map from programs to distributions over executions. When the program halts with probability one, this induces a proper distribution over return values. Indeed, any computable distribution can be represented as the distribution induced by a Church program in this way" + dippl
+
 ### Books
 
 [<s>Think Bayes</s>](http://www.greenteapress.com/thinkbayes/thinkbayes.pdf) - Bayes reasoning meets real-world problems.
