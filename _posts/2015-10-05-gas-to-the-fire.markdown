@@ -5,8 +5,10 @@ date:   2015-10-05 23:10:45
 description: Some materials I've read/watch, or plan to, when working on the dissertation.
 categories:
 - dissertation
-- visual_programming
-- probabilistic_programming
+- visual programming
+- probabilistic programming
+- machine learning
+- programming languages
 permalink: proposal
 ---
 
