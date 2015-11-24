@@ -23,7 +23,7 @@ permalink: intro
 Software and its engineering →
   Software notations and tools →
     Context specific languages →  Visual languages.
-      Specialized application languages.
+    Specialized application languages.
 Computing methodologies →
   Machine learning →
     Machine learning approaches.
