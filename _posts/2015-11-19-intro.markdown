@@ -36,7 +36,7 @@ In the second approach one common way to tackle it is to use bayesian reasoning,
 The solution to this has been building generic inference engines for graphical models, so that modeling and inference can be treated as separate concerns and people can focus on the modeling. However, not all models can be represented as graphical models, and that's why we now have Probabilistic Programming Languages (PPLs).
 Probabilistic Programs let you write your model as a program and have off-the-shelf inference.
 
-DARPA, the main funder behind PPLs' research, considers one of the main key points of its *Probabilistic Programming for Advancing Machine Learning* program to make models easier to write. However, forcing the users to learn yet another language seems counter-productive.
+DARPA, the main funder behind PPLs' research, considers one of the main key points of its *Probabilistic Programming for Advancing Machine Learning* program to make models easier to write. However, forcing the users to learn yet another syntax seems counter-productive.
 
 To address this issue, this dissertation aims to explore graphical representations of a PPL through node-based programming. This means having a visual editor that compiles what is drawn to a PPL's syntax. By being similar to other data analysis tools, such as RapidMiner or Weka Knowledge Flow, we hypothesize it will be more intuitive and thus easier to learn than a full-blown PPL.
 
