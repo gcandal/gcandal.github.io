@@ -31,14 +31,14 @@ Computing methodologies →
 
 There is, among several domains with interesting and relevant problems to solve (computer vision, cryptography, biology, fraud detection, recommender systems, ...), the recurring necessity to be able to make decisions in the face of uncertainty. Typically, there are two approaches for this class of problems: either use an existing machine learning model (such as KNN, neural networks or similar) and try to fit your data into the model, or build a probabilistic model for your particular problem so you can leverage domain knowledge.
 
-In the second approach one common way to tackle it is to use bayesian reasoning, where you model unknown causes with random variables, feed the data you have gathered and then perform inference to reverse the story and query for the desired variables. The tricky issue is this last step, since it is non-trivial, time-consuming and error-prone to write a one-time inference method.
+In the second approach one common way to tackle it is to use bayesian reasoning, where you model unknown causes with random variables, feed the model the data you have gathered and then perform inference to reverse the story and query for the desired variables. The tricky issue is this last step, since it is non-trivial to write an inference method.
 
 The solution to this has been building generic inference engines for graphical models, so that modeling and inference can be treated as separate concerns and people can focus on the modeling. However, not all models can be represented as graphical models, and that's why we now have Probabilistic Programming Languages (PPLs).
-Probabilistic Programs let you write your model as a program, without being restricted by graphical model's notation, and have off-the-shelf inference.
+Probabilistic Programs let you write your model as a program and have off-the-shelf inference.
 
-DARPA, the main funder behind PPLs' research, considers one of the main key points of its *Probabilistic Programming for Advancing Machine Learning* program to make models easier to write. However, forcing the users, many of them statisticians or data scientists, to learn yet another language, seems counter-productive.
+DARPA, the main funder behind PPLs' research, considers one of the main key points of its *Probabilistic Programming for Advancing Machine Learning* program to make models easier to write. However, forcing the users to learn yet another language seems counter-productive.
 
-To address this issue, this dissertation aims to explore graphical representations of a PPL through node-based programming. By being similar to other data analysis tools, such as RapidMiner or Weka Knowledge Flow, we hypothesize it will be more intuitive and thus easier to learn than a full-blown PPL.
+To address this issue, this dissertation aims to explore graphical representations of a PPL through node-based programming. This means having a visual editor that compiles what is drawn to a PPL's syntax. By being similar to other data analysis tools, such as RapidMiner or Weka Knowledge Flow, we hypothesize it will be more intuitive and thus easier to learn than a full-blown PPL.
 
 **[1]** Andrew D. Gordon and Thomas A. Henzinger and Aditya V. Nori and Sriram K. Rajamani. Probabilistic Programming. International Conference on Software Engineering (ICSE Future of Software Engineering), 2014.
 
