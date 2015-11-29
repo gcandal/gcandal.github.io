@@ -58,7 +58,7 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [Markov Chain Monte Carlo for Statistical Inference](http://ecovision.mit.edu/~sai/12S990/besag.pdf)
 
-[Variational Message Passing](http://www.johnwinn.org/Publications/papers/VMP2005.pdf)
+[<s>Variational Message Passing</s>](http://www.johnwinn.org/Publications/papers/VMP2005.pdf) - Not worth getting into the mathematical foundations of it, but is interesting to understand that there are limitations to the various inference algorithms. It has an interesting reference to a software developed by Winn to demonstrate this concept, which uses a GUI to specify a Bayesian network.
 
 [<s>Variational Algorithms For Approximate Bayesian Inference</s>](http://www.cse.buffalo.edu/faculty/mbeal/papers/beal03.pdf) - 300 pages long, so skipping this by now. Seems to have a nice overview over Probabilistic Programming and its inference methods (Introduction section), to be read later.
 
