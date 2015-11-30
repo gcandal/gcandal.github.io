@@ -98,6 +98,8 @@ John Winn's Presentation on variational inference and Variational Message Passin
 
 [<s>The State of Probabilistic Programming</s>](https://moalquraishi.wordpress.com/2015/03/29/the-state-of-probabilistic-programming/comment-page-1/#comment-1450) - Awesome report of the current state of PPLs, comparing them across several categories. Addresses the most pressing concerns as well as future challenges. Nice to read after already understanding the basics of PPLs and why do they matter.
 
+[VIBES](http://vibes.sourceforge.net/tutorial/)
+
 ### Yet to expand
 
 [Probabilistic Programming Reading Group @ Oxford](http://www.robots.ox.ac.uk/~perov/reading_groups/probprob2013/)
