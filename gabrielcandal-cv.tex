@@ -1,0 +1,125 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[portuguese]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+% personal data
+\firstname{Gabriel}
+\familyname{Candal}
+\title{Curriculum Vitae}
+\address{Porto, Portugal}
+\mobile{(+351) 917 589 663}
+\email{gabrielcandal@gmail.com}
+\homepage{github.com/gcandal}
+\extrainfo{linkedin.com/in/gcandal}
+\extrainfo{Skype: g.candal}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\vspace{-10mm}
+
+%Section
+\section{Experience}
+\vspace{-2mm}
+\subsection{Working}
+\cventry{2015-*}{Software Engineer}{\href{http://www.ripe.tech}{Ripe Productions}}{}{}
+{Joined as the 3rd developer a team that so far: built a best-of-breed web 3D customiser, integrated it within \href{https://www.farfetch.com/}{farfetch.com} and launched a website for the
+world's first customisable luxury sneaker \href{https://www.my-swear.com/}{my-swear.com}. Individually, I have
+contributed to all areas of our products, from the core
+customiser to the website's front and back-ends, including autonomously building an analytics
+dashboard and a platform for running and monitoring parallel image transformation tasks.
+To do this I've used MongoDB, Python, HTML/CSS and Javascript (jQuery).}
+\cventry{2014-2015}{Co-Founder \& Lead Developer}{Trigonum}{}{}
+{Responsible for the software development in a company focused on products for
+health professionals. Used HTML/CSS, PHP, jQuery and PostgreSQL.}
+\cventry{\small Jul-Aug \normalsize 2013}{Software Developer Intern}{\href{http://www.criticalmanufacturing.com/pt/homepage}{
+Critical Manufacturing}}{}{}{Together with a colleague developed an
+tool to assist developers in testing. Comparing to the one previously used
+it ran 5x faster, besides providing information
+as structured XML and producing 3x smaller files. Used C++ on top of Solaris.}
+\vspace{2mm}
+\subsection{Teaching Assistant}
+\cventry{\small Feb-May \normalsize 2015}{Programming / Algorithm Design and Analysis}{\href{http://www.fe.up.pt}{Faculty of Engineering of
+the University of Porto}}{FEUP}{}{}
+\cventry{\small Sep-Nov \normalsize 2014}{ProjetoFEUP}{\href{http://www.fe.up.pt}{Faculty of Engineering of
+the University of Porto}}{FEUP}{}{}
+\vspace{-3mm}
+
+%Section
+\section{Education}
+\cventry{2011-2016}{Masters in Informatics and Computing Engineering}{\href{http://www.fe.up.pt/mieic}{Faculty of Engineering of
+the University of Porto}}{FEUP}{}{}
+\vspace{-3mm}
+
+%Section
+\section{Skills}
+\cvline{Basic}{\small Haskell, Prolog, Docker, Spark}
+\cvline{Built stuff with}{\small \textbf{General purpose} (Scala, Python, Java, C/C++, Ruby), \textbf{web} (Javascript, jQuery, node.js, AngularJS, Ruby on Rails, HTML/CSS, PHP), \textbf{databases} (PostgreSQL, MongoDB), \textbf{mobile} (Android), \textbf{other} (Unix, git, UML, algorithms, concurrency/multiprocessing, MapReduce)}
+\vspace{-3mm}
+
+%Section
+\section{Projects}
+\cvline{Actor Binary Tree}
+{Made a distributed binary tree implementation based on Akka's actors as part of Martin Odersky's MOOC on reactive programming. \textbf{Scala, Akka}}
+\cvline{GlinttSupport}
+{In collaboration with \href{http://www.glintt.com/}{Glintt}, built a call-center-like website which aggregated Facebook and Twitter feeds of a given company, as well as a custom 1-on-1 chat, and presented them as unresolved issues for the operator to solve.  \textbf{AngularJS, node.js}}
+\cvline{Interpreters}
+{As a part of UW's MOOC on programming languages, built two interpreters: one for geometric expressions and the other for a MUPL (Made Up Programming Language, which was a subset of Racket which included higher-order functions). \textbf{StandardML, Racket}}
+\cvline{\href{https://github.com/gcandal/DistributedBackup}{Distributed Backup}}
+{Distributed and decentralized application that provides file backup capabilities, making use of UDP's unreliable message-passing. \textbf{Java}}
+\cvline{\href{https://github.com/joaofloressantos/Regex_To_DFA}{Regex compiler}}
+{A compiler from PCRE regex to a C++/Java program which matches that regex to user input, based on a validation via DFA. \textbf{Java}}
+\cvline{\href{https://github.com/tiagoaf5/Beef}{Beef}}
+{A betting website for football leagues. \textbf{jQuery, Ruby on Rails}}
+\cvline{\href{https://github.com/augustocravosilva/CoastWeather}{CoastWeather}}
+{Android app that provides a way for users to evaluate the weather at portuguese beaches with some social networking features. \textbf{PHP, Python, Android}}
+\cvline{\href{https://github.com/gcandal/NeuralNetwork}{NeuralNet}}
+{An OO implementation of a feed forward backpropagation neural network. \textbf{Java}}
+\cvline{\href{https://github.com/gcandal/minixasteroid}{Asteroids}}
+{A game which runs on top of Minix, which involved programming every devices' interface (timer, keyboard, mouse, VESA graphics). \textbf{C/C++}}
+\cvline{\href{https://github.com/gcandal/JADETrustModels}{Trust}}
+{Agent-based application to compare several trust model's behavior under different scenarios. \textbf{Java}}
+\cvline{\href{https://github.com/MiguelGPereira/ViaVerde/blob/master/ViaVerde.vdmpp}{Via Verde}}
+{A formal model for Portugal's highways toll system. \textbf{VDM++}}
+
+%Section
+\section{Extra Courses and Certificates}
+\cventry{Jun 2015}{Principles of Reactive Programming}{\href{https://www.coursera.org/course/reactive}{Coursera}}{EPFL}{}{}
+\cventry{Aug 2015}{CS190.1x: Scalable Machine Learning}{\href{https://www.edx.org/course/scalable-machine-learning-uc-berkeleyx-cs190-1x}{edX}}{BerkeleyX}{}{}
+\cventry{Feb 2013}{CS169.1x Software as a Service I}{\href{https://www.edx.org/course/engineering-software-service-uc-berkeleyx-cs169-1x}{edX}}{BerkeleyX}{}{}
+\cventry{Feb 2015}{CS169.2x Software as a Service II}{\href{https://www.edx.org/course/engineering-software-service-part-2-uc-berkeleyx-cs169-2x}{edX}}{BerkeleyX}{}{}
+\cventry{Dec 2014}{Programming Languages}{\href{https://www.coursera.org/course/proglang}{Coursera}}{University of Washington}{}{}
+\cventry{Mar 2015}{Algorithms: Design and Analysis, Part 1}{\href{https://www.coursera.org/course/algo}{Coursera}}{Stanford}{}{}
+\cventry{May 2015}{Algorithms: Design and Analysis, Part 2}{\href{https://www.coursera.org/course/algo2}{Coursera}}{Stanford}{}{}
+\cventry{Nov 2013}{Functional Programming Principles in Scala}{\href{https://www.coursera.org/course/progfun}{Coursera}}{EPFL}{}{}
+\cventry{May 2014}{Certificate in Advanced English}{University of Cambdrige}{}{}{}
+\cventry{Dec 2014}{FP101x Introduction to Functional Programming}{\href{https://www.edx.org/course/introduction-functional-programming-delftx-fp101x}{edX}}{DelftX}{}{}
+\cventry{Oct 2014}{M101JS: MongoDB for Node.js Developers}{\href{https://university.mongodb.com/courses/M101JS/about}{MongoDB, Inc.}}{}{}{}
+\cventry{Jul 2015}{CS100.1x: Introduction to Big Data with Apache Spark}{\href{https://www.edx.org/course/introduction-big-data-apache-spark-uc-berkeleyx-cs100-1x}{edX}}{BerkeleyX}{}{}
+\cventry{2013-*}{13 other MOOCs}{Coursera, edX and Udacity}{}{}{}
+\vspace{-3mm}
+
+%Section
+\section{Other}
+\cvline{Volunteer}{\small DotA-League's Junior Admin, Codecademy, INForum 2014, Talk A Bit's 4th edition organisation}
+
+
+\end{document}
