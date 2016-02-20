@@ -13,7 +13,7 @@
 	</li>
 	{% endif %}
 	<li>
-		<a href="{% post_url 2015-10-05-abstract %} | prepend: site.baseurl | prepend: site.url">Abstract</a><span>/</span>
+		<a href="{{site.baseurl | prepend: site.url}}{% post_url 2015-10-05-abstract %}">Abstract</a><span>/</span>
 	</li>
 	<li>
 		<a href="{{ '/mieic-en.pdf' | prepend: site.baseurl | prepend: site.url }}">Planning report</a><span>/</span>
