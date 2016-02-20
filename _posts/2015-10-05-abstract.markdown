@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Prelude"
+title:  "Abstract"
 date:   2015-10-05 23:10:45
 description: Why I'm doing a dissertation on PPLs.
 categories:
@@ -9,7 +9,7 @@ categories:
 - probabilistic programming
 - machine learning
 - programming languages
-permalink: prelude
+permalink: abstract
 ---
 
 ## Exploring Visual Programming Concepts for Probabilistic Programming Languages

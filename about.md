@@ -7,7 +7,7 @@ I’m Gabriel, a Software Engineer from Porto, Portugal. Even if I’m mostly do
 
 My allegiance lies with functional programming and I’m an evangelist of strong static typing, but if you are part of a small but highly capable engineering-driven team whom I can learn from, maybe we can set our differences aside.
 
-Oh, I also like MOOCs too much for my own sake, love football and practice karaté, so proceed with caution.
+Oh, I also like MOOCs too much for my own sake, love football and practice karaté, so proceed with caution.z
 
 ### Contact me
 
