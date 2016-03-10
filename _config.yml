@@ -4,7 +4,7 @@
 baseurl:
 
 # Site live URL
-url: http://gcandal.github.io
+url: https://gcandal.github.io
 
 # Localhost
 # url: http://127.0.0.1:4000
@@ -23,7 +23,7 @@ harmony:
   author: # Author details
     name: Gabriel Candal
     email: gabrielcandal@gmail.com
-    url: http://gabrielcandal.github.io
+    url: https://gabrielcandal.github.io
 
   # Google Analytics key, leave blank to ignore
   google_analytics_key: UA-68418671-1
