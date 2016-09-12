@@ -2,9 +2,6 @@
 	<li>
 		<a href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}">About</a><span>/</span>
 	</li>
-	<li>
-		<a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Logbook</a><span>/</span>
-	</li>
 	{% if site.harmony.social.github %}
 	<li>
 		<a href="{{ '/gabrielcandal-cv.pdf' | prepend: site.baseurl | prepend: site.url }}">
@@ -12,16 +9,4 @@
 		</a><span>/</span>
 	</li>
 	{% endif %}
-	<li>
-		<a href="{{site.baseurl | prepend: site.url}}{% post_url 2015-10-05-abstract %}">Abstract</a><span>/</span>
-	</li>
-	<li>
-		<a href="{{ '/mieic-en.pdf' | prepend: site.baseurl | prepend: site.url }}">Planning report</a><span>/</span>
-	</li>
-	<li>
-		<a href="{{ '/mieic-en-pres.pdf' | prepend: site.baseurl | prepend: site.url }}">Planning presentation #1</a><span>/</span>
-	</li>
-	<li>
-		<a href="{{ '/mieic-en-pres2.pdf' | prepend: site.baseurl | prepend: site.url }}">Planning presentation #2</a><span>/</span>
-	</li>
 </ul>
