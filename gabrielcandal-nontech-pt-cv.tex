@@ -1,0 +1,97 @@
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+\usepackage[T1]{fontenc}
+% character encoding
+\usepackage[utf8x]{inputenc}                   % replace by the encoding you are using
+\usepackage[portuguese]{babel}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\recomputelengths                             % required when changes are made to page layout lengths
+
+\fancyfoot{} % clear all footer fields
+\fancyfoot[LE,RO]{\thepage}           % page number in "outer" position of footer line
+\fancyfoot[RE,LO]{\footnotesize } % other info in "inner" position of footer line
+
+% personal data
+\firstname{Gabriel}
+\familyname{Candal}
+\title{Curriculum Vitae}
+\address{Porto, Portugal}
+\mobile{(+351) 917 589 663}
+\email{gabrielcandal@gmail.com}
+\homepage{linkedin.com/in/gcandal}
+\extrainfo{Skype: g.candal}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+
+\vspace{-10mm}
+
+%Section
+\section{Experiência}
+\vspace{-2mm}
+\subsection{Profissional}
+\cventry{Out 2021 - *}{\textit{Software Engineer}}{Empresa confidencial}{}{}
+{Colaboro no desenvolvimento de uma plataforma de \textit{trading} para o setor financeiro.}
+\cventry{Abr 2019 - Out 2021}{\textit{Head of Software}}{\href{http://www.platforme.com}{Platforme}}{}{}
+{Liderei o planeamento e a execução de uma plataforma de \textit{software-as-a-service} para ajudar empresas a libertarem-se de stock e a transacionarem para uma lógica \textit{made-to-order}. Juntei-me à empresa numa fase de transformação, tendo tido que construir processos e equipas do zero e mesmo assim manter capacidade de resposta às necessidades de negócio, resultando em:
+\begin{itemize}
+  \item A concepção de um sistema de desenvolvimento de software interligado entre design, engenharia e qualidade, terminando na entrega a \textit{stakeholders} externos (equipas não técnicas, vendas ou clientes)
+  \item Processo de garantia de qualidade dependente de uma \textit{framework} de testes criada internamente
+  \item Equipas de desenvolvimento de software formadas por recém-formados, engenheiros experientes, estágios e \textit{freelancers} capazes de continuamente entregar novos produtos
+  \item Equipas capazes de trabalhar de forma completamente remota e assíncrona
+\end{itemize}}
+\cventry{Dec 2016 - Apr 2019}{\textit{Software Engineer}}{\href{http://www.feedzai.com}{Feedzai}}{}{}
+{Trabalhei para providenciar um sistema de \textit{machine learning} através de um sistema distribuído com requisitos apertados de desempenho para alguns dos maiores bancos, processadores de pagamentos e vendedores do mundo. Entre outras coisas:
+\begin{itemize}
+  \item Coordenei uma equipa de 3 pessoas que construiu um protótipo para substituir a solução de deteção de fraude de uma empresa presente na Fortune 500
+  \item Coordenei uma equipa de 5 pessoas durante a implementação de 2 grandes iniciativas
+  \item Ajudei a filtrar candidatos, recebê-los e integrá-los (incluindo engenheiros de software, \textit{product owners} e \textit{engineering managers})
+\end{itemize}}
+\cventry{2015-2016}{\textit{Software Engineer}}{\href{http://www.platforme.com}{Platforme}}{}{}
+{Juntei-me à empresa como o terceiro engenheiro, numa equipa que construiu um customizador web 3D que foi integrado na \href{https://www.farfetch.com/}{farfetch.com}, assim como o seu próprio motor de \textit{e-commerce}. \newline Além de realizer desenvolvimento de software, também levantei requisitos junto de pessoas internas e externas à empresa, e ajudei a escalonar e coordenar tarefas no âmbito da equipa técnica.}
+\cventry{2014-2015}{Co-Fundador}{Trigonum}{}{}
+{Responsável pelo desenvolvimento de software numa iniciativa focada num produto para profissionais de saúde.}
+\cventry{\small Jul-Aug \normalsize 2013}{\textit{Software Developer Intern}}{\href{http://www.criticalmanufacturing.com/pt/homepage}{
+Critical Manufacturing}}{}{}{}
+\vspace{2mm}
+\subsection{Ensino}
+\cventry{\small Feb-May \normalsize 2015}{Programação e Concepção e Análise de Algoritmos}{\href{http://www.fe.up.pt}{Faculdade de Engenharia da Universidade do Porto}}{FEUP}{}{}
+\cventry{\small Sep-Nov \normalsize 2014}{ProjetoFEUP}{\href{http://www.fe.up.pt}{Faculdade de Engenharia da Universidade do Porto}}{FEUP}{}{}
+\vspace{-3mm}
+\pagebreak
+%Section
+\section{Competências}
+\cvline{Profissionais}{\small Gestão de projetos, produto e pessoas; escrever e rever documentação; preparar, rever e realizar apresentações; programação; análise de dados}
+\cvline{Outras}{\small Aprender e ensinar}
+\vspace{-3mm}
+
+%Section
+\section{Education}
+\cventry{2011-2016}{Mestrado em Engenharia Informática e Computação}{\href{http://www.fe.up.pt/mieic}{Faculdade de Engenharia da Universidade do Porto}}{FEUP}{top 5\%}{Tese em \href{https://gcandal.github.io/visual-probabilistic-programming.pdf}{\textit{Exploring Visual Programming Concepts for Probabilistic Programming}}.}
+\vspace{-3mm}
+
+%Section
+\section{Extra Courses and Certificates}
+\cventry{Jan 2022-*}{Pós-graduação}{Pensamento Liberal}{}{}{}
+\cventry{Nov 2017}{Certified ScrumMaster}{Scrum Alliance}{}{}{}
+\cventry{Maio 2014}{Certificate in Advanced English}{University of Cambridge}{}{}{}
+\cventry{2013-*}{24 MOOCs}{Coursera, edX e Udacity}{}{}{}
+\vspace{-3mm}
+
+%Section
+\section{Outros}
+\cvline{Blog}{\small \href{https://medium.com/@gcandal}{Medium}}
+\cvline{Orador}{\small \href{https://pixels.camp}{Pixels Camp ("Distributed Systems: zero to ?")}}
+\cvline{Voluntariado}{\small +Liberdade, Codecademy, INForum, Talk A Bit}
+\cvline{Desporto}{\small Karaté Goju-ryu, futebol}
+
+\end{document}
